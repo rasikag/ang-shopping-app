@@ -11,7 +11,13 @@ export class RecipeListComponent implements OnInit {
     new Recipe('A Test Recipe',
                'A Test Description', 
                'https://drop.ndtv.com/albums/COOKS/pasta-vegetarian/pastaveg_640x480.jpg')
-  ];
+    ,new Recipe('A Test Recipe',
+      'A Test Description', 
+      'https://drop.ndtv.com/albums/COOKS/pasta-vegetarian/pastaveg_640x480.jpg')
+    ,new Recipe('A Test Recipe',
+'A Test Description', 
+'https://drop.ndtv.com/albums/COOKS/pasta-vegetarian/pastaveg_640x480.jpg')
+];
   constructor() { }
 
   ngOnInit() {
